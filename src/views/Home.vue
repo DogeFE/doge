@@ -2,11 +2,10 @@
   <div>
     <Topnav />
     <div class="banner">
-      <img alt="Doge logo" src="../assets/logo.png" />
       <h1>DogeUI</h1>
-      <h2>一个 UI 框架</h2>
+      <h2>正在学习组件化的UI 框架</h2>
       <p class="actions">
-        <a href="https://github.com/DogeFE">GitHub</a>
+        <a href="https://github.com/DogeFE/doge">GitHub</a>
         <router-link to="/doc">开始</router-link>
       </p>
     </div>
@@ -25,6 +24,7 @@ export default {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background: lightgreen;
   > .actions{
     padding: 8px 0;
     a {

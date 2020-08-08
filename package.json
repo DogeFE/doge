@@ -1,5 +1,5 @@
 {
-  "name": "doge",
+  "name": "gulu-ui-1",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -7,11 +7,11 @@
   },
   "dependencies": {
     "vue": "^3.0.0-rc.1",
-    "vue-router": "4.0.0-beta.4"
+    "vue-router": "4.0.0-beta.3"
   },
   "devDependencies": {
+    "sass": "1.26.10",
     "@vue/compiler-sfc": "^3.0.0-rc.1",
-    "sass": "^1.26.10",
     "vite": "^1.0.0-rc.1"
   }
 }
