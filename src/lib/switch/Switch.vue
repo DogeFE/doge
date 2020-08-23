@@ -1,7 +1,10 @@
 <template>
+<div class="d-switch">
   <button @click="toggle" :class="{checked:value}">
     <span></span>
   </button>
+</div>
+  
 </template>
 <script lang="ts">
 import './switch.scss'

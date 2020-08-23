@@ -3,7 +3,8 @@ $h2: $h - 4px;
 body{
   background: red
 }
-button {
+.d-switch {
+  button {
   height: $h;
   width: $h * 2;
   border: none;
@@ -40,4 +41,5 @@ button {
       margin-left: -4px;
     }
   }
+}
 }
