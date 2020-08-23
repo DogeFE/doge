@@ -1,6 +1,9 @@
 <template>
   <div class="topnav">
-    <div class="logo">LOGO</div>
+    <div class="logo">
+      <img src="../assets/favicon.png" alt="" width="24" />
+      <span>dogeUI</span>
+    </div>
     <ul class="menu">
       <li>菜单1</li>
       <li>菜单2</li>
@@ -22,7 +25,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .topnav {
-  background: pink;
   display: flex;
   padding: 16px;
   position: fixed;
@@ -35,6 +37,9 @@ export default {
   > .logo {
     max-width: 6em;
     margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   > .menu {
     display: flex;
@@ -47,7 +52,6 @@ export default {
   > .toggleAside {
     width: 24px;
     height: 24px;
-    background: red;
     position: absolute;
     left: 16px;
     top: 50%;
