@@ -6,12 +6,14 @@ import ButtonDemo from "./components/ButtonDemo.vue";
 import DialogDemo from "./components/DialogDemo.vue";
 import TabsDemo from "./components/TabsDemo.vue";
 import DocDemo from "./components/DocDemo.vue";
+import kael from "./views/kael.vue";
 
 const history = createWebHashHistory();
 export const router = createRouter({
   history: history,
   routes: [
     { path: "/", component: Home },
+    { path: "/kael", component: kael },
     {
       path: "/doc",
       component: Doc,
