@@ -1,5 +1,5 @@
 import { createApp } from "vue";
-import "../../doge/style/doge.scss";
+import "doge/style/doge.scss";
 import "./index.scss";
 import App from "./App.vue";
 import { router } from './router';
