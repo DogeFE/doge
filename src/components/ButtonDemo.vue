@@ -61,12 +61,8 @@
 </template>
 
 <script lang="ts">
-import DButton from '../lib/button/Button.vue'
 export default {
   name: 'DButtonDemo',
-  components: {
-    DButton
-  },
  setup() {
    const onClick = () => {
      console.log('Hi!!!')

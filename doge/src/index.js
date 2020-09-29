@@ -1,17 +1,19 @@
-import input from '../component/input'
-import button from '../component/button'
-let components = {
-    input,
-    button
-}
+import Input from '../component/input'
+import Button from '../component/button/index'
+import Switch from '../component/switch/index'
+let components = [
+  Input,
+  Button,
+  Switch,
+];
 class Doge {
     constructor(){
 
     }
     static install(Vue){
-        Object.keys(components).forEach(c=>{
-            Vue.component(`d-${c}`, components[c]);
-        })
+        components.forEach((component) => {
+            Vue.component(component.name, component);
+        });
     }
 }
 export default Doge
