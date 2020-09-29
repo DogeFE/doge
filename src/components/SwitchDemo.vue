@@ -1,6 +1,5 @@
 <template>
   <div>
-    daskhdksaj
     <d-switch v-model:value="bool"/>
   </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="topnav">
     <div class="logo">
-      <img src="../assets/favicon.png" alt="" width="24" />
+      <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/422e224df1d742bbad6e6e86ae528f47~tplv-k3u1fbpfcp-zoom-1.image" alt="" width="24" />
       <span>dogeUI</span>
     </div>
     <ul class="menu">
