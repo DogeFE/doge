@@ -10,6 +10,7 @@
 import './switch.scss'
 import { ref } from "vue";
 export default {
+  name: 'DSwitch',
   props: {
     value: Boolean,
   },

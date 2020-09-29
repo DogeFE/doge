@@ -14,7 +14,11 @@ export default {
   props: {
     size: {
       type: String,
-      default: 'normal'
+      default: 'normal',
+      validator: function(val) {
+        console.log(val)
+        return ['small', 'normal', 'big'].includes(val) ? val:'normal'
+      }
     },
     theme: {type: String, default: 'button'},
     level: {type: String, default: 'normal'},

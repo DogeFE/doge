@@ -1,3 +1,60 @@
+### button
+jibe
+### Properties
+    - size: 按钮的尺寸
+    - theme: 按钮的主体
+    - level: 按钮等级
+    - disabled: 按钮是否显示
+    - loading: 按钮加载态
+### Methods
+    - 无
+### Inherit
+    - 无
+### Attribute（自生属性）
+    - size: 按钮的尺寸
+    - theme: 按钮的主体
+    - level: 按钮等级
+    - disabled: 按钮是否显示
+    - loading: 按钮加载态
+### Config & State
+    - 无
+### Event
+    - 继承默认事件
+### Children
+    无
+### 示例
+src/components/ButtonDemo.vue
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 1. vue3会将事件传递给组件的最外层dom
 ### Vue3 属性绑定
 
