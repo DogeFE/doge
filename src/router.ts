@@ -6,6 +6,7 @@ import ButtonDemo from "./components/ButtonDemo.vue";
 import DialogDemo from "./components/DialogDemo.vue";
 import TabsDemo from "./components/TabsDemo.vue";
 import AlertDemo from "./components/AlertDemo.vue";
+import ProgressDemo from "./components/ProgressDemo.vue";
 import DocDemo from "./components/DocDemo.vue";
 import kael from "./views/kael.vue";
 
@@ -25,6 +26,7 @@ export const router = createRouter({
         { path: "dialog", component: DialogDemo },
         { path: "alert", component: AlertDemo },
         { path: "tabs", component: TabsDemo },
+        { path: "progress", component: ProgressDemo },
       ],
     },
   ],

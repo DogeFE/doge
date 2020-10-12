@@ -20,6 +20,9 @@
           <li>
             <router-link to="/doc/alert">Alert 组件</router-link>
           </li>
+          <li>
+            <router-link to="/doc/progress">Progress 进度条</router-link>
+          </li>
         </ol>
       </aside>
       <main>

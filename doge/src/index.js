@@ -1,10 +1,12 @@
 import Input from '../component/input'
 import Button from '../component/button/index'
 import Switch from '../component/switch/index'
+import Progress from '../component/progress/index'
 let components = [
   Input,
   Button,
   Switch,
+  Progress,
 ];
 class Doge {
     constructor(){
