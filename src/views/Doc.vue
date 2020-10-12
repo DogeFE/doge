@@ -17,6 +17,9 @@
           <li>
             <router-link to="/doc/tabs">Tabs 组件</router-link>
           </li>
+          <li>
+            <router-link to="/doc/alert">Alert 组件</router-link>
+          </li>
         </ol>
       </aside>
       <main>
@@ -49,7 +52,7 @@ export default {
     padding-top: 60px;
     padding-left: 156px;
     @media (max-width: 500px) {
-      padding-left: 0; 
+      padding-left: 0;
     }
   }
 }

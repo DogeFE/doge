@@ -1,0 +1,23 @@
+.d-alert {
+  position: fixed;
+  width: 100%;
+  top: 16px;
+  left: 0;
+  text-align: center;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .d-alert-main {
+    transition: all 0.3s ease;
+  }
+  .d-alert-content {
+    display: inline-block;
+    padding: 4px 10px;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 8px;
+  }
+}
